@@ -1,0 +1,103 @@
+body{
+  padding:100px 300px;
+  font-family: YuGothic,'Yu Gothic','游ゴシック',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Osaka,"MS PGothic",Arial,Helvetica,Verdana,sans-serif;
+  font-size:13px;
+}
+
+a,a:visited,a:active{
+  color:#228EC9;
+  text-decoration:none;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    padding: 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ui-autocomplete > li {
+  border-bottom:solid 1px #eee;
+  cursor: pointer;
+}
+
+.ui-autocomplete > a:hover {
+  text-decoration: none;
+}
+
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #f6f6f6;
+  display: block;
+  text-decoration: none;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+  text-decoration: none;
+}
+
+.ui-menu .ui-menu-item {
+  padding: 5px 20px;
+  color: #333;
+}
+
+.ui-menu .ui-menu-item a {
+  color: #333;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+.ui-state-focus {
+  background: #f6f6f6;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+#tagwaku{
+  width:100%;
+  padding:10px;
+  border:solid 1px #ccc;
+      -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+#tag-input{
+  border: 1px solid transparent;
+  outline: 0px;
+  font-size:15px;
+  height:20px;
+}
+
+#tags{
+  display: none;
+}
+
+.tag_list{
+  float: left;
+  border:solid 1px #ccc;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+  padding:0px 10px;
+  margin-bottom:10px;
+  margin-right:5px;
+  font-size: 13px;
+}
+
+.remove{
+  cursor: pointer;
+}
+
