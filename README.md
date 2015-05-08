@@ -1,5 +1,6 @@
 # Input_Tag
 自動補完でタグを選択入力できるライブラリ
+![Alt text](sample.png)
 
 ## 使い方
 ### jQueryとjQuery UIライブラリ、CSSを読み込む
@@ -24,5 +25,7 @@
 
 ### Input_Tagライブラリを読み込む
     <script src="input_tag.js"></script>
-
-![Alt text](/path/to/img.jpg)
+    
+## 選択されたタグについて
+    <input type="hidden" name="skills" id="skills">
+にカンマ区切りで入力されます。
