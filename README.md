@@ -1,10 +1,10 @@
 # Input_Tag
-自動補完でタグを選択入力できるライブラリ
+自動補完でタグを選択入力できるjQueryプラグイン
 
 ![Alt text](sample.png)
 
 ## 使い方
-### jQueryとjQuery UIライブラリ、CSSを読み込む
+### jQueryとjQuery UI、CSSを読み込む
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -24,7 +24,7 @@
     "Ireland"
     ];
 
-### Input_Tagライブラリを読み込む
+### Input_Tagを読み込む
     <script src="input_tag.js"></script>
     
 ## 選択されたタグについて
