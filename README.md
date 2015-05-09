@@ -1,6 +1,8 @@
 # Input_Tag
 自動補完でタグを選択入力できるjQueryプラグイン
 
+[DEMO](http://iritec.github.io/Input_Tag/)
+
 ![Alt text](sample.png)
 
 ## 使い方
