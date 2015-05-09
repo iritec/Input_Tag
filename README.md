@@ -25,7 +25,8 @@
     "Iceland",
     "Ireland"
     ];
-
+    </script>
+    
 ### Input_Tagを読み込む
     <script src="input_tag.js"></script>
     
